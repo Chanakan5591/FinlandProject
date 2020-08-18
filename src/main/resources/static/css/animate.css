@@ -1,0 +1,120 @@
+@keyframes raise {
+    from {
+        opacity: 0;
+        transform: translateY(10px)}
+    to {
+        opacity: 100%;
+    }
+}
+
+.modal-full {
+    min-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes bar-load100 {
+    from{
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes bar-load80 {
+    from{
+        width: 0;
+    }
+    to {
+        width: 80%;
+    }
+}
+
+.center {
+    text-align: center;
+    margin: 0;
+}
+
+.start-raise-load {
+    opacity:0;
+}
+
+.bar-load100-load {
+    opacity:0;
+}
+
+.bar-load80-load {
+    opacity:0;
+}
+
+.bar-load100 {
+    animation-name: bar-load100;
+    animation-duration: 1s;
+    opacity: 1;
+}
+
+.bar-load80 {
+    animation-name: bar-load80;
+    animation-duration: 1s;
+    opacity: 1;
+}
+
+.secondary-background {
+    background-color: #005673;
+}
+
+.hover-grow {
+    transition: all 0.5s;
+    opacity: 25%;
+}
+
+.hover-grow:hover {
+    transform: scale(1.03);
+    opacity: 100%;
+}
+
+.social-media {
+    color: #292928;
+    filter:brightness(150%);
+    transition: all 450ms;
+}
+.social-media:hover {
+    filter:brightness(100%);
+    transform: scale(1.04) translateY(-10px);
+    transition: all 450ms;
+}
+
+.format {
+    white-space: pre-wrap;
+}
+
+.parent {
+    text-align:center;
+}
+
+.child {
+    display:inline-block;
+    width:12% !important;
+    height:12% !important;
+    margin-left:2% !important;
+    margin-right:2% !important;
+}
+
+.start-raise {
+    animation-name: raise;
+    animation-duration: 1s;
+}
+
+.gray-container {
+    background-color: #eee;
+    width: 100%;
+    height: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.container-div {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

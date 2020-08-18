@@ -1,0 +1,16 @@
+header {
+    opacity: 0;
+    transition: opacity .5s .25s ease-out;
+}
+
+header.is-visible {
+    opacity: 1;
+}
+
+.is-visible .heading {
+    transform: translate(-50%, -50%);
+}
+
+html {
+    scroll-behavior: smooth;
+}
