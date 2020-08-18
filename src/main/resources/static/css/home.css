@@ -14,3 +14,14 @@ header.is-visible {
 html {
     scroll-behavior: smooth;
 }
+#about-country {
+    font-family: 'Oswald', sans-serif;
+}
+.main-head {
+    font-family: 'Oswald', sans-serif;
+}
+.p1-about {
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+    font-size: 24px;
+}
