@@ -12,7 +12,7 @@
 </head>
 <script src="webjars/jquery/3.5.1/jquery.min.js"></script>
 <script th:src="@{/js/scroll.js}"></script>
-<body>
+<body onload="animateHTML().init();">
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary" style="margin-bottom:25px;">
     <a class="navbar-brand" href="">Finland</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
@@ -31,12 +31,12 @@
                 <a class="nav-link" href="/some-where">button3</a>
             </li>
         </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <img src="https://www.webfreecounter.com/hit.php?id=gmefxpop&nd=3&style=22" alt="hit counter">
+            </li>
+        </ul>
     </div>
-    <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-            <img src="https://www.webfreecounter.com/hit.php?id=gmefxpop&nd=3&style=22" alt="hit counter">
-        </li>
-    </ul>
 </nav>
 <div class="jumbotron animateOnLoad">
     <h1 class="display-2 start-raise-load">Finland</h1>
