@@ -10,7 +10,6 @@ header.is-visible {
 .is-visible .heading {
     transform: translate(-50%, -50%);
 }
-
 html {
     scroll-behavior: smooth;
 }
@@ -18,10 +17,20 @@ html {
     font-family: 'Oswald', sans-serif;
 }
 .main-head {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Taviraj', sans-serif;
 }
-.p1-about {
+.p-about {
+    font-size: 24px;
+}
+.slogan-head {
+    font-family: 'Oswald', sans-serif;
+    font-size: 36px;
+}
+.credit-head {
     font-family: 'Oswald', sans-serif;
     font-weight: lighter;
-    font-size: 24px;
+    font-size: 30px;
+}
+#history-country {
+    font-family: 'Oswald', sans-serif;
 }

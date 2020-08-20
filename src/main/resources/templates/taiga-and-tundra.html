@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns:th="https://www.thymeleaf.org">
 <head>
-    <title>Finland - Home</title>
+    <title>Finland - About Biome</title>
 <link href="https://fonts.googleapis.com/css2?family=Taviraj:wght@800&amp;display=swap" rel="stylesheet">    <meta name="viewport" content="width=device-width">
     <meta name="author" content="Chanakan Mungtin">
     <meta charset="utf-8">
@@ -16,7 +16,7 @@
 <script th:src="@{/js/scroll.js}"></script>
 <body onload="animateHTML().init();">
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary" style="margin-bottom:25px;">
-    <a class="navbar-brand" href="">Finland</a>
+    <a class="navbar-brand" href="/">Finland</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
             aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -24,13 +24,13 @@
     <div class="collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="/">Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/finland-biome">About Biome</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/taiga-and-tundra">Taiga And Tundra</a>
+                <a class="nav-link" href="/taiga-and-tundra">Taiga And Tundra <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/about-us">About Us <span class="sr-only">(current)</span></a>
@@ -44,29 +44,43 @@
     <p class="lead start-raise-load slogan-head">Biome Website Project</p>
     <hr class="my-4">
     <p class="start-raise-load credit-head">Proudly made by Chanakan Mungtin, Chanoknan Akecharoen, and Siririn Nethithananond</p>
-    <p class="lead">
-        <a class="btn btn-primary btn-lg start-raise-load" href="#about-country" role="button">Learn More</a>
-    </p>
 </div>
 <div class="animateOnLoad container" style="margin-bottom:25px;">
     <div style="text-align: center;">
-        <h1 id="about-country" class="display-2 start-raise-load" style="font-size: 70px;margin-bottom:50px;">About Finland</h1>
+        <h1 id="about-country" class="display-2 start-raise-load" style="font-size: 70px;margin-bottom:50px;">Taiga & Tundra<br/>what's the differences?</h1>
         <h2 class="lead" style="font-size: 30px;text-align: left;"></h2>
-        <p class="p-about start-raise-load">Finland is a country located in the Nordic region of Europe. Bounded by the Baltic Sea to its southwest, the Gulf of Bothnia on the west, and the Gulf of Finland on the south, it shares land borders with Sweden to the west, Russia to the east, and Norway to the north. Helsinki, the capital of Finland, and Tampere are the largest cities and urban areas in the whole country.</p>
+        <h2 id="about-country" class="display-4 start-raise-load">Taiga</h2>
         <h2 class="lead" style="font-size: 30px;text-align: left;"></h2>
-        <img class="start-raise-load" width="250" height="500" src="https://4.bp.blogspot.com/-_rXfF3goYWE/TmhyQb24tnI/AAAAAAAAQMA/MzexuG3UY9M/s1600/0-741728.jpg" alt="finland-map" />
     </div>
+    <ol>
+        <li class="p-about start-raise-load">It extends in the sub polar belt of N. America and Eurasia (55° to 66.5° north)</li>
+        <li class="p-about start-raise-load">It is a belt of coniferous forest.</li>
+        <li class="p-about start-raise-load">The winters are long and cold. Summers are short and warm.</li>
+        <li class="p-about start-raise-load">It is the land of fur bearing animals, e.g., mink, silver fox, squirrel, etc.</li>
+        <li class="p-about start-raise-load">Have a plant like spruce, pine, and fir</li>
+    </ol>
 </div>
 <div class="animateOnLoad gray-container" style="margin-bottom:25px;">
     <div style="text-align: center;" class="container">
-        <h1 id="history-country" class="display-2 start-raise-load" style="font-size: 70px; margin-bottom: 50px;">History Of Finland</h1>
+        <h2 id="about-country" class="display-4 start-raise-load">Tundra</h2>
         <h2 class="lead" style="font-size: 30px; text-align: left;"></h2>
-        <p class="p-about start-raise-load">Finland was first inhabited around the end of the most recent ice age, approximately around 9000 BC. The Comb Ceramic culture introduced pottery in 5200 BC and the Corded Ware culture coincided with the start of agriculture between 3000 and 2500 BC. The Bronze Age and Iron Age were characterised by extensive contacts with other cultures in Fennoscandia and the Baltic region. At the time Finland had three main cultural areas  Southwest Finland, Tavastia and Karelia. From the late 13th century, Finland gradually became an integral part of Sweden as a consequence of the Northern Crusades and the Swedish colonisation of coastal Finland, an event, the legacy of which is reflected in the prevalence of the Swedish language and its official status.</p>
+    </div>
+    <div class="container">
+        <ol>
+            <li class="p-about start-raise-load">It extends beyond the Arctic and Antarctic Circle (66.5° to the poles).</li>
+            <li class="p-about start-raise-load">Mosses and lichens are found with few stunted trees beyond the Taiga region.</li>
+            <li class="p-about start-raise-load">The winters are very long and severe. Summers are very short and warm.</li>
+            <li class="p-about start-raise-load">It is the land with few animals like polar bear, reindeer, and walrus.</li>
+            <li class="p-about start-raise-load">Have a plant like snallow-rooted, mosses, lichens, and grasses.</li>
+        </ol>
+    </div>
+        <h2 class="lead" style="font-size: 30px;text-align: left;"></h2>
     </div>
     <hr class="my-2">
-</div>
+</div>         
 <ol class="breadcrumb" style="margin-top: 12%;">
-    <li class="breadcrumb-item active">Home</li>
+    <li class="breadcrumb-item"><a href="/">Home</a></li>
+    <li class="breadcrumb-item active">Taiga-and-Tundra</li>
 </ol>
 <div class="container"><p class="lead" style="display:block;margin: 5px 5px 10px;text-align:center;font-size:16px;">Made
     with <span style="color:#ff0000">♥</span> by Chanakan Mungtin</br>Copyright &copy; 2020 Chanakan Mungtin</p>

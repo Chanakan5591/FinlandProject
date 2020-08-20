@@ -27,4 +27,16 @@ public class ChanaSiteApplication {
     public String MainPage() {
         return "welcome";
     }
+    @RequestMapping("/finland-biome")
+    public String BiomePage() {
+        return "biome";
+    }
+    @RequestMapping("/taiga-and-tundra")
+    public String TAT() {
+        return "taiga-and-tundra";
+    }
+    @RequestMapping("/about-us")
+    public String AboutUs() {
+        return "about-us";
+    }
 }
